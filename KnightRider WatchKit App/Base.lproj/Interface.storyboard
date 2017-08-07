@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="KnightRider_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView height="80" alignment="center" image="voicebox-1" id="ca0-3W-fo2"/>
+                        <group width="1" alignment="left" id="ubT-if-exL">
+                            <items>
+                                <button width="40" height="35" alignment="center" backgroundImage="button-oil-on" id="j2d-pu-Jit">
+                                    <connections>
+                                        <action selector="ButtonOilPressed" destination="AgC-eL-Hgc" id="w4R-Cd-Yea"/>
+                                    </connections>
+                                </button>
+                                <button width="40" height="35" alignment="center" backgroundImage="button-air-off" id="Tni-4u-YZt">
+                                    <connections>
+                                        <action selector="ButtonAirPressed" destination="AgC-eL-Hgc" id="QaA-5O-MQO"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="VAB-k4-8SO">
+                            <items>
+                                <button width="40" height="35" alignment="center" backgroundImage="button-p1-off" id="s0c-nb-6Wv">
+                                    <connections>
+                                        <action selector="ButtonP1Pressed" destination="AgC-eL-Hgc" id="yUN-2O-cjh"/>
+                                    </connections>
+                                </button>
+                                <button width="40" height="35" alignment="center" backgroundImage="button-p2-off" id="ylO-4B-Hhf">
+                                    <connections>
+                                        <action selector="ButtonP2Pressed" destination="AgC-eL-Hgc" id="bOZ-af-4uI"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="ButtonAir" destination="Tni-4u-YZt" id="2XI-eA-oT6"/>
+                        <outlet property="ButtonOil" destination="j2d-pu-Jit" id="SCB-b1-vTP"/>
+                        <outlet property="ButtonP1" destination="s0c-nb-6Wv" id="Bex-9v-ahJ"/>
+                        <outlet property="ButtonP2" destination="ylO-4B-Hhf" id="eHT-6W-Bwe"/>
+                        <outlet property="voiceBox" destination="ca0-3W-fo2" id="ZIC-sP-x1o"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="159" y="93"/>
+        </scene>
+    </scenes>
+</document>

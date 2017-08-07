@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D11253BB1F34B431001EE67A /* kitt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D11253BA1F34B431001EE67A /* kitt.mp3 */; };
+		D11253BC1F34B431001EE67A /* kitt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D11253BA1F34B431001EE67A /* kitt.mp3 */; };
+		D11253BD1F34B431001EE67A /* kitt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D11253BA1F34B431001EE67A /* kitt.mp3 */; };
+		D112799A1F38B196001EE67A /* synth-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279951F38B196001EE67A /* synth-1.png */; };
+		D112799B1F38B196001EE67A /* synth-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279951F38B196001EE67A /* synth-1.png */; };
+		D112799C1F38B196001EE67A /* synth-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279951F38B196001EE67A /* synth-1.png */; };
+		D112799D1F38B196001EE67A /* synth-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279961F38B196001EE67A /* synth-2.png */; };
+		D112799E1F38B196001EE67A /* synth-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279961F38B196001EE67A /* synth-2.png */; };
+		D112799F1F38B196001EE67A /* synth-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279961F38B196001EE67A /* synth-2.png */; };
+		D11279A01F38B196001EE67A /* synth-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279971F38B196001EE67A /* synth-3.png */; };
+		D11279A11F38B196001EE67A /* synth-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279971F38B196001EE67A /* synth-3.png */; };
+		D11279A21F38B196001EE67A /* synth-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279971F38B196001EE67A /* synth-3.png */; };
+		D11279A31F38B196001EE67A /* synth-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279981F38B196001EE67A /* synth-4.png */; };
+		D11279A41F38B196001EE67A /* synth-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279981F38B196001EE67A /* synth-4.png */; };
+		D11279A51F38B196001EE67A /* synth-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279981F38B196001EE67A /* synth-4.png */; };
+		D11279A61F38B196001EE67A /* synth-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279991F38B196001EE67A /* synth-5.png */; };
+		D11279A71F38B196001EE67A /* synth-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279991F38B196001EE67A /* synth-5.png */; };
+		D11279A81F38B196001EE67A /* synth-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D11279991F38B196001EE67A /* synth-5.png */; };
+		D1BD6E5A1F3357E3003D6683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6E591F3357E3003D6683 /* AppDelegate.swift */; };
+		D1BD6E5C1F3357E3003D6683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6E5B1F3357E3003D6683 /* ViewController.swift */; };
+		D1BD6E5F1F3357E3003D6683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E5D1F3357E3003D6683 /* Main.storyboard */; };
+		D1BD6E611F3357E3003D6683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E601F3357E3003D6683 /* Assets.xcassets */; };
+		D1BD6E641F3357E3003D6683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E621F3357E3003D6683 /* LaunchScreen.storyboard */; };
+		D1BD6E691F3357E4003D6683 /* KnightRider WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D1BD6E681F3357E4003D6683 /* KnightRider WatchKit App.app */; };
+		D1BD6E6F1F3357E4003D6683 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E6D1F3357E4003D6683 /* Interface.storyboard */; };
+		D1BD6E711F3357E4003D6683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E701F3357E4003D6683 /* Assets.xcassets */; };
+		D1BD6E781F3357E4003D6683 /* KnightRider WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1BD6E771F3357E4003D6683 /* KnightRider WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1BD6E7D1F3357E4003D6683 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6E7C1F3357E4003D6683 /* InterfaceController.swift */; };
+		D1BD6E7F1F3357E4003D6683 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BD6E7E1F3357E4003D6683 /* ExtensionDelegate.swift */; };
+		D1BD6E811F3357E4003D6683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E801F3357E4003D6683 /* Assets.xcassets */; };
+		D1BD6EA61F3358D4003D6683 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E911F3358D4003D6683 /* bar.png */; };
+		D1BD6EA71F3358D4003D6683 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E911F3358D4003D6683 /* bar.png */; };
+		D1BD6EA81F3358D4003D6683 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E911F3358D4003D6683 /* bar.png */; };
+		D1BD6EA91F3358D4003D6683 /* button-air-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E921F3358D4003D6683 /* button-air-off.png */; };
+		D1BD6EAA1F3358D4003D6683 /* button-air-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E921F3358D4003D6683 /* button-air-off.png */; };
+		D1BD6EAB1F3358D4003D6683 /* button-air-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E921F3358D4003D6683 /* button-air-off.png */; };
+		D1BD6EAC1F3358D4003D6683 /* button-air-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E931F3358D4003D6683 /* button-air-on.png */; };
+		D1BD6EAD1F3358D4003D6683 /* button-air-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E931F3358D4003D6683 /* button-air-on.png */; };
+		D1BD6EAE1F3358D4003D6683 /* button-air-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E931F3358D4003D6683 /* button-air-on.png */; };
+		D1BD6EAF1F3358D4003D6683 /* button-oil-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E941F3358D4003D6683 /* button-oil-off.png */; };
+		D1BD6EB01F3358D4003D6683 /* button-oil-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E941F3358D4003D6683 /* button-oil-off.png */; };
+		D1BD6EB11F3358D4003D6683 /* button-oil-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E941F3358D4003D6683 /* button-oil-off.png */; };
+		D1BD6EB21F3358D4003D6683 /* button-oil-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E951F3358D4003D6683 /* button-oil-on.png */; };
+		D1BD6EB31F3358D4003D6683 /* button-oil-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E951F3358D4003D6683 /* button-oil-on.png */; };
+		D1BD6EB41F3358D4003D6683 /* button-oil-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E951F3358D4003D6683 /* button-oil-on.png */; };
+		D1BD6EB51F3358D4003D6683 /* button-p1-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E961F3358D4003D6683 /* button-p1-off.png */; };
+		D1BD6EB61F3358D4003D6683 /* button-p1-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E961F3358D4003D6683 /* button-p1-off.png */; };
+		D1BD6EB71F3358D4003D6683 /* button-p1-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E961F3358D4003D6683 /* button-p1-off.png */; };
+		D1BD6EB81F3358D4003D6683 /* button-p1-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E971F3358D4003D6683 /* button-p1-on.png */; };
+		D1BD6EB91F3358D4003D6683 /* button-p1-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E971F3358D4003D6683 /* button-p1-on.png */; };
+		D1BD6EBA1F3358D4003D6683 /* button-p1-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E971F3358D4003D6683 /* button-p1-on.png */; };
+		D1BD6EBB1F3358D4003D6683 /* button-p2-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E981F3358D4003D6683 /* button-p2-off.png */; };
+		D1BD6EBC1F3358D4003D6683 /* button-p2-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E981F3358D4003D6683 /* button-p2-off.png */; };
+		D1BD6EBD1F3358D4003D6683 /* button-p2-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E981F3358D4003D6683 /* button-p2-off.png */; };
+		D1BD6EBE1F3358D4003D6683 /* button-p2-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E991F3358D4003D6683 /* button-p2-on.png */; };
+		D1BD6EBF1F3358D4003D6683 /* button-p2-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E991F3358D4003D6683 /* button-p2-on.png */; };
+		D1BD6EC01F3358D4003D6683 /* button-p2-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E991F3358D4003D6683 /* button-p2-on.png */; };
+		D1BD6EC11F3358D4003D6683 /* voicebox-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9A1F3358D4003D6683 /* voicebox-1.png */; };
+		D1BD6EC21F3358D4003D6683 /* voicebox-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9A1F3358D4003D6683 /* voicebox-1.png */; };
+		D1BD6EC31F3358D4003D6683 /* voicebox-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9A1F3358D4003D6683 /* voicebox-1.png */; };
+		D1BD6EC41F3358D4003D6683 /* voicebox-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9B1F3358D4003D6683 /* voicebox-10.png */; };
+		D1BD6EC51F3358D4003D6683 /* voicebox-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9B1F3358D4003D6683 /* voicebox-10.png */; };
+		D1BD6EC61F3358D4003D6683 /* voicebox-10.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9B1F3358D4003D6683 /* voicebox-10.png */; };
+		D1BD6EC71F3358D4003D6683 /* voicebox-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9C1F3358D4003D6683 /* voicebox-11.png */; };
+		D1BD6EC81F3358D4003D6683 /* voicebox-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9C1F3358D4003D6683 /* voicebox-11.png */; };
+		D1BD6EC91F3358D4003D6683 /* voicebox-11.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9C1F3358D4003D6683 /* voicebox-11.png */; };
+		D1BD6ECA1F3358D4003D6683 /* voicebox-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9D1F3358D4003D6683 /* voicebox-12.png */; };
+		D1BD6ECB1F3358D4003D6683 /* voicebox-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9D1F3358D4003D6683 /* voicebox-12.png */; };
+		D1BD6ECC1F3358D4003D6683 /* voicebox-12.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9D1F3358D4003D6683 /* voicebox-12.png */; };
+		D1BD6ECD1F3358D4003D6683 /* voicebox-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9E1F3358D4003D6683 /* voicebox-2.png */; };
+		D1BD6ECE1F3358D4003D6683 /* voicebox-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9E1F3358D4003D6683 /* voicebox-2.png */; };
+		D1BD6ECF1F3358D4003D6683 /* voicebox-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9E1F3358D4003D6683 /* voicebox-2.png */; };
+		D1BD6ED01F3358D4003D6683 /* voicebox-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9F1F3358D4003D6683 /* voicebox-3.png */; };
+		D1BD6ED11F3358D4003D6683 /* voicebox-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9F1F3358D4003D6683 /* voicebox-3.png */; };
+		D1BD6ED21F3358D4003D6683 /* voicebox-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6E9F1F3358D4003D6683 /* voicebox-3.png */; };
+		D1BD6ED31F3358D4003D6683 /* voicebox-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA01F3358D4003D6683 /* voicebox-4.png */; };
+		D1BD6ED41F3358D4003D6683 /* voicebox-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA01F3358D4003D6683 /* voicebox-4.png */; };
+		D1BD6ED51F3358D4003D6683 /* voicebox-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA01F3358D4003D6683 /* voicebox-4.png */; };
+		D1BD6ED61F3358D4003D6683 /* voicebox-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA11F3358D4003D6683 /* voicebox-5.png */; };
+		D1BD6ED71F3358D4003D6683 /* voicebox-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA11F3358D4003D6683 /* voicebox-5.png */; };
+		D1BD6ED81F3358D4003D6683 /* voicebox-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA11F3358D4003D6683 /* voicebox-5.png */; };
+		D1BD6ED91F3358D4003D6683 /* voicebox-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA21F3358D4003D6683 /* voicebox-6.png */; };
+		D1BD6EDA1F3358D4003D6683 /* voicebox-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA21F3358D4003D6683 /* voicebox-6.png */; };
+		D1BD6EDB1F3358D4003D6683 /* voicebox-6.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA21F3358D4003D6683 /* voicebox-6.png */; };
+		D1BD6EDC1F3358D4003D6683 /* voicebox-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA31F3358D4003D6683 /* voicebox-7.png */; };
+		D1BD6EDD1F3358D4003D6683 /* voicebox-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA31F3358D4003D6683 /* voicebox-7.png */; };
+		D1BD6EDE1F3358D4003D6683 /* voicebox-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA31F3358D4003D6683 /* voicebox-7.png */; };
+		D1BD6EDF1F3358D4003D6683 /* voicebox-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA41F3358D4003D6683 /* voicebox-8.png */; };
+		D1BD6EE01F3358D4003D6683 /* voicebox-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA41F3358D4003D6683 /* voicebox-8.png */; };
+		D1BD6EE11F3358D4003D6683 /* voicebox-8.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA41F3358D4003D6683 /* voicebox-8.png */; };
+		D1BD6EE21F3358D4003D6683 /* voicebox-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA51F3358D4003D6683 /* voicebox-9.png */; };
+		D1BD6EE31F3358D4003D6683 /* voicebox-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA51F3358D4003D6683 /* voicebox-9.png */; };
+		D1BD6EE41F3358D4003D6683 /* voicebox-9.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EA51F3358D4003D6683 /* voicebox-9.png */; };
+		D1BD6EEA1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE61F336703003D6683 /* button-pursuit-mode.mp3 */; };
+		D1BD6EEB1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE61F336703003D6683 /* button-pursuit-mode.mp3 */; };
+		D1BD6EEC1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE61F336703003D6683 /* button-pursuit-mode.mp3 */; };
+		D1BD6EED1F336703003D6683 /* button-right-away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE71F336703003D6683 /* button-right-away.mp3 */; };
+		D1BD6EEE1F336703003D6683 /* button-right-away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE71F336703003D6683 /* button-right-away.mp3 */; };
+		D1BD6EEF1F336703003D6683 /* button-right-away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE71F336703003D6683 /* button-right-away.mp3 */; };
+		D1BD6EF01F336703003D6683 /* button-systems-go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE81F336703003D6683 /* button-systems-go.mp3 */; };
+		D1BD6EF11F336703003D6683 /* button-systems-go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE81F336703003D6683 /* button-systems-go.mp3 */; };
+		D1BD6EF21F336703003D6683 /* button-systems-go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE81F336703003D6683 /* button-systems-go.mp3 */; };
+		D1BD6EF31F336703003D6683 /* button-turbo-boost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE91F336703003D6683 /* button-turbo-boost.mp3 */; };
+		D1BD6EF41F336703003D6683 /* button-turbo-boost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE91F336703003D6683 /* button-turbo-boost.mp3 */; };
+		D1BD6EF51F336703003D6683 /* button-turbo-boost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1BD6EE91F336703003D6683 /* button-turbo-boost.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1BD6E6A1F3357E4003D6683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BD6E4E1F3357E3003D6683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BD6E671F3357E4003D6683;
+			remoteInfo = "KnightRider WatchKit App";
+		};
+		D1BD6E791F3357E4003D6683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BD6E4E1F3357E3003D6683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BD6E761F3357E4003D6683;
+			remoteInfo = "KnightRider WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1BD6E881F3357E4003D6683 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D1BD6E781F3357E4003D6683 /* KnightRider WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD6E8C1F3357E4003D6683 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D1BD6E691F3357E4003D6683 /* KnightRider WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D11253BA1F34B431001EE67A /* kitt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kitt.mp3; sourceTree = "<group>"; };
+		D11279951F38B196001EE67A /* synth-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synth-1.png"; sourceTree = "<group>"; };
+		D11279961F38B196001EE67A /* synth-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synth-2.png"; sourceTree = "<group>"; };
+		D11279971F38B196001EE67A /* synth-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synth-3.png"; sourceTree = "<group>"; };
+		D11279981F38B196001EE67A /* synth-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synth-4.png"; sourceTree = "<group>"; };
+		D11279991F38B196001EE67A /* synth-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "synth-5.png"; sourceTree = "<group>"; };
+		D1BD6E561F3357E3003D6683 /* KnightRider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightRider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD6E591F3357E3003D6683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1BD6E5B1F3357E3003D6683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1BD6E5E1F3357E3003D6683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1BD6E601F3357E3003D6683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BD6E631F3357E3003D6683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1BD6E651F3357E3003D6683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD6E681F3357E4003D6683 /* KnightRider WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KnightRider WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD6E6E1F3357E4003D6683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D1BD6E701F3357E4003D6683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BD6E721F3357E4003D6683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD6E771F3357E4003D6683 /* KnightRider WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KnightRider WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BD6E7C1F3357E4003D6683 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D1BD6E7E1F3357E4003D6683 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D1BD6E801F3357E4003D6683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BD6E821F3357E4003D6683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BD6E911F3358D4003D6683 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		D1BD6E921F3358D4003D6683 /* button-air-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-air-off.png"; sourceTree = "<group>"; };
+		D1BD6E931F3358D4003D6683 /* button-air-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-air-on.png"; sourceTree = "<group>"; };
+		D1BD6E941F3358D4003D6683 /* button-oil-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-oil-off.png"; sourceTree = "<group>"; };
+		D1BD6E951F3358D4003D6683 /* button-oil-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-oil-on.png"; sourceTree = "<group>"; };
+		D1BD6E961F3358D4003D6683 /* button-p1-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-p1-off.png"; sourceTree = "<group>"; };
+		D1BD6E971F3358D4003D6683 /* button-p1-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-p1-on.png"; sourceTree = "<group>"; };
+		D1BD6E981F3358D4003D6683 /* button-p2-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-p2-off.png"; sourceTree = "<group>"; };
+		D1BD6E991F3358D4003D6683 /* button-p2-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-p2-on.png"; sourceTree = "<group>"; };
+		D1BD6E9A1F3358D4003D6683 /* voicebox-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-1.png"; sourceTree = "<group>"; };
+		D1BD6E9B1F3358D4003D6683 /* voicebox-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-10.png"; sourceTree = "<group>"; };
+		D1BD6E9C1F3358D4003D6683 /* voicebox-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-11.png"; sourceTree = "<group>"; };
+		D1BD6E9D1F3358D4003D6683 /* voicebox-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-12.png"; sourceTree = "<group>"; };
+		D1BD6E9E1F3358D4003D6683 /* voicebox-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-2.png"; sourceTree = "<group>"; };
+		D1BD6E9F1F3358D4003D6683 /* voicebox-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-3.png"; sourceTree = "<group>"; };
+		D1BD6EA01F3358D4003D6683 /* voicebox-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-4.png"; sourceTree = "<group>"; };
+		D1BD6EA11F3358D4003D6683 /* voicebox-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-5.png"; sourceTree = "<group>"; };
+		D1BD6EA21F3358D4003D6683 /* voicebox-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-6.png"; sourceTree = "<group>"; };
+		D1BD6EA31F3358D4003D6683 /* voicebox-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-7.png"; sourceTree = "<group>"; };
+		D1BD6EA41F3358D4003D6683 /* voicebox-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-8.png"; sourceTree = "<group>"; };
+		D1BD6EA51F3358D4003D6683 /* voicebox-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicebox-9.png"; sourceTree = "<group>"; };
+		D1BD6EE61F336703003D6683 /* button-pursuit-mode.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-pursuit-mode.mp3"; sourceTree = "<group>"; };
+		D1BD6EE71F336703003D6683 /* button-right-away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-right-away.mp3"; sourceTree = "<group>"; };
+		D1BD6EE81F336703003D6683 /* button-systems-go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-systems-go.mp3"; sourceTree = "<group>"; };
+		D1BD6EE91F336703003D6683 /* button-turbo-boost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-turbo-boost.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BD6E531F3357E3003D6683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD6E741F3357E4003D6683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1BD6E4D1F3357E3003D6683 = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E581F3357E3003D6683 /* KnightRider */,
+				D1BD6E6C1F3357E4003D6683 /* KnightRider WatchKit App */,
+				D1BD6E7B1F3357E4003D6683 /* KnightRider WatchKit Extension */,
+				D1BD6E571F3357E3003D6683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BD6E571F3357E3003D6683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E561F3357E3003D6683 /* KnightRider.app */,
+				D1BD6E681F3357E4003D6683 /* KnightRider WatchKit App.app */,
+				D1BD6E771F3357E4003D6683 /* KnightRider WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BD6E581F3357E3003D6683 /* KnightRider */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E901F3358D4003D6683 /* images */,
+				D1BD6EE51F336703003D6683 /* audio */,
+				D1BD6E591F3357E3003D6683 /* AppDelegate.swift */,
+				D1BD6E5B1F3357E3003D6683 /* ViewController.swift */,
+				D1BD6E5D1F3357E3003D6683 /* Main.storyboard */,
+				D1BD6E601F3357E3003D6683 /* Assets.xcassets */,
+				D1BD6E621F3357E3003D6683 /* LaunchScreen.storyboard */,
+				D1BD6E651F3357E3003D6683 /* Info.plist */,
+			);
+			path = KnightRider;
+			sourceTree = "<group>";
+		};
+		D1BD6E6C1F3357E4003D6683 /* KnightRider WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E6D1F3357E4003D6683 /* Interface.storyboard */,
+				D1BD6E701F3357E4003D6683 /* Assets.xcassets */,
+				D1BD6E721F3357E4003D6683 /* Info.plist */,
+			);
+			path = "KnightRider WatchKit App";
+			sourceTree = "<group>";
+		};
+		D1BD6E7B1F3357E4003D6683 /* KnightRider WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E7C1F3357E4003D6683 /* InterfaceController.swift */,
+				D1BD6E7E1F3357E4003D6683 /* ExtensionDelegate.swift */,
+				D1BD6E801F3357E4003D6683 /* Assets.xcassets */,
+				D1BD6E821F3357E4003D6683 /* Info.plist */,
+			);
+			path = "KnightRider WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D1BD6E901F3358D4003D6683 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD6E911F3358D4003D6683 /* bar.png */,
+				D1BD6E921F3358D4003D6683 /* button-air-off.png */,
+				D1BD6E931F3358D4003D6683 /* button-air-on.png */,
+				D1BD6E941F3358D4003D6683 /* button-oil-off.png */,
+				D1BD6E951F3358D4003D6683 /* button-oil-on.png */,
+				D1BD6E961F3358D4003D6683 /* button-p1-off.png */,
+				D1BD6E971F3358D4003D6683 /* button-p1-on.png */,
+				D1BD6E981F3358D4003D6683 /* button-p2-off.png */,
+				D1BD6E991F3358D4003D6683 /* button-p2-on.png */,
+				D1BD6E9A1F3358D4003D6683 /* voicebox-1.png */,
+				D1BD6E9B1F3358D4003D6683 /* voicebox-10.png */,
+				D1BD6E9C1F3358D4003D6683 /* voicebox-11.png */,
+				D1BD6E9D1F3358D4003D6683 /* voicebox-12.png */,
+				D1BD6E9E1F3358D4003D6683 /* voicebox-2.png */,
+				D1BD6E9F1F3358D4003D6683 /* voicebox-3.png */,
+				D1BD6EA01F3358D4003D6683 /* voicebox-4.png */,
+				D1BD6EA11F3358D4003D6683 /* voicebox-5.png */,
+				D1BD6EA21F3358D4003D6683 /* voicebox-6.png */,
+				D1BD6EA31F3358D4003D6683 /* voicebox-7.png */,
+				D1BD6EA41F3358D4003D6683 /* voicebox-8.png */,
+				D1BD6EA51F3358D4003D6683 /* voicebox-9.png */,
+				D11279951F38B196001EE67A /* synth-1.png */,
+				D11279961F38B196001EE67A /* synth-2.png */,
+				D11279971F38B196001EE67A /* synth-3.png */,
+				D11279981F38B196001EE67A /* synth-4.png */,
+				D11279991F38B196001EE67A /* synth-5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D1BD6EE51F336703003D6683 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				D11253BA1F34B431001EE67A /* kitt.mp3 */,
+				D1BD6EE61F336703003D6683 /* button-pursuit-mode.mp3 */,
+				D1BD6EE71F336703003D6683 /* button-right-away.mp3 */,
+				D1BD6EE81F336703003D6683 /* button-systems-go.mp3 */,
+				D1BD6EE91F336703003D6683 /* button-turbo-boost.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1BD6E551F3357E3003D6683 /* KnightRider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BD6E8D1F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider" */;
+			buildPhases = (
+				D1BD6E521F3357E3003D6683 /* Sources */,
+				D1BD6E531F3357E3003D6683 /* Frameworks */,
+				D1BD6E541F3357E3003D6683 /* Resources */,
+				D1BD6E8C1F3357E4003D6683 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BD6E6B1F3357E4003D6683 /* PBXTargetDependency */,
+			);
+			name = KnightRider;
+			productName = KnightRider;
+			productReference = D1BD6E561F3357E3003D6683 /* KnightRider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1BD6E671F3357E4003D6683 /* KnightRider WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BD6E891F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider WatchKit App" */;
+			buildPhases = (
+				D1BD6E661F3357E4003D6683 /* Resources */,
+				D1BD6E881F3357E4003D6683 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BD6E7A1F3357E4003D6683 /* PBXTargetDependency */,
+			);
+			name = "KnightRider WatchKit App";
+			productName = "KnightRider WatchKit App";
+			productReference = D1BD6E681F3357E4003D6683 /* KnightRider WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D1BD6E761F3357E4003D6683 /* KnightRider WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BD6E851F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider WatchKit Extension" */;
+			buildPhases = (
+				D1BD6E731F3357E4003D6683 /* Sources */,
+				D1BD6E741F3357E4003D6683 /* Frameworks */,
+				D1BD6E751F3357E4003D6683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KnightRider WatchKit Extension";
+			productName = "KnightRider WatchKit Extension";
+			productReference = D1BD6E771F3357E4003D6683 /* KnightRider WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1BD6E4E1F3357E3003D6683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Balint Bartok";
+				TargetAttributes = {
+					D1BD6E551F3357E3003D6683 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EJZY74TSLQ;
+						ProvisioningStyle = Automatic;
+					};
+					D1BD6E671F3357E4003D6683 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EJZY74TSLQ;
+						ProvisioningStyle = Automatic;
+					};
+					D1BD6E761F3357E4003D6683 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EJZY74TSLQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1BD6E511F3357E3003D6683 /* Build configuration list for PBXProject "KnightRider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1BD6E4D1F3357E3003D6683;
+			productRefGroup = D1BD6E571F3357E3003D6683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BD6E551F3357E3003D6683 /* KnightRider */,
+				D1BD6E671F3357E4003D6683 /* KnightRider WatchKit App */,
+				D1BD6E761F3357E4003D6683 /* KnightRider WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1BD6E541F3357E3003D6683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD6ED01F3358D4003D6683 /* voicebox-3.png in Resources */,
+				D1BD6EF31F336703003D6683 /* button-turbo-boost.mp3 in Resources */,
+				D1BD6EAF1F3358D4003D6683 /* button-oil-off.png in Resources */,
+				D1BD6ECA1F3358D4003D6683 /* voicebox-12.png in Resources */,
+				D112799A1F38B196001EE67A /* synth-1.png in Resources */,
+				D1BD6EA91F3358D4003D6683 /* button-air-off.png in Resources */,
+				D1BD6EEA1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */,
+				D11279A31F38B196001EE67A /* synth-4.png in Resources */,
+				D1BD6EBB1F3358D4003D6683 /* button-p2-off.png in Resources */,
+				D1BD6EB51F3358D4003D6683 /* button-p1-off.png in Resources */,
+				D1BD6EE21F3358D4003D6683 /* voicebox-9.png in Resources */,
+				D1BD6EDF1F3358D4003D6683 /* voicebox-8.png in Resources */,
+				D112799D1F38B196001EE67A /* synth-2.png in Resources */,
+				D1BD6EC11F3358D4003D6683 /* voicebox-1.png in Resources */,
+				D1BD6ED31F3358D4003D6683 /* voicebox-4.png in Resources */,
+				D1BD6EC41F3358D4003D6683 /* voicebox-10.png in Resources */,
+				D1BD6ED91F3358D4003D6683 /* voicebox-6.png in Resources */,
+				D1BD6EAC1F3358D4003D6683 /* button-air-on.png in Resources */,
+				D1BD6ED61F3358D4003D6683 /* voicebox-5.png in Resources */,
+				D1BD6EED1F336703003D6683 /* button-right-away.mp3 in Resources */,
+				D1BD6EDC1F3358D4003D6683 /* voicebox-7.png in Resources */,
+				D11279A01F38B196001EE67A /* synth-3.png in Resources */,
+				D11253BB1F34B431001EE67A /* kitt.mp3 in Resources */,
+				D1BD6EB21F3358D4003D6683 /* button-oil-on.png in Resources */,
+				D1BD6EF01F336703003D6683 /* button-systems-go.mp3 in Resources */,
+				D1BD6E641F3357E3003D6683 /* LaunchScreen.storyboard in Resources */,
+				D1BD6E611F3357E3003D6683 /* Assets.xcassets in Resources */,
+				D1BD6EBE1F3358D4003D6683 /* button-p2-on.png in Resources */,
+				D1BD6EB81F3358D4003D6683 /* button-p1-on.png in Resources */,
+				D1BD6EC71F3358D4003D6683 /* voicebox-11.png in Resources */,
+				D11279A61F38B196001EE67A /* synth-5.png in Resources */,
+				D1BD6ECD1F3358D4003D6683 /* voicebox-2.png in Resources */,
+				D1BD6E5F1F3357E3003D6683 /* Main.storyboard in Resources */,
+				D1BD6EA61F3358D4003D6683 /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD6E661F3357E4003D6683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD6ED11F3358D4003D6683 /* voicebox-3.png in Resources */,
+				D1BD6EB01F3358D4003D6683 /* button-oil-off.png in Resources */,
+				D1BD6EBC1F3358D4003D6683 /* button-p2-off.png in Resources */,
+				D1BD6EF11F336703003D6683 /* button-systems-go.mp3 in Resources */,
+				D1BD6EC81F3358D4003D6683 /* voicebox-11.png in Resources */,
+				D1BD6EC21F3358D4003D6683 /* voicebox-1.png in Resources */,
+				D11253BC1F34B431001EE67A /* kitt.mp3 in Resources */,
+				D1BD6EDD1F3358D4003D6683 /* voicebox-7.png in Resources */,
+				D1BD6EA71F3358D4003D6683 /* bar.png in Resources */,
+				D11279A11F38B196001EE67A /* synth-3.png in Resources */,
+				D1BD6E711F3357E4003D6683 /* Assets.xcassets in Resources */,
+				D1BD6ECB1F3358D4003D6683 /* voicebox-12.png in Resources */,
+				D1BD6EBF1F3358D4003D6683 /* button-p2-on.png in Resources */,
+				D1BD6EE31F3358D4003D6683 /* voicebox-9.png in Resources */,
+				D112799E1F38B196001EE67A /* synth-2.png in Resources */,
+				D1BD6EAD1F3358D4003D6683 /* button-air-on.png in Resources */,
+				D11279A71F38B196001EE67A /* synth-5.png in Resources */,
+				D112799B1F38B196001EE67A /* synth-1.png in Resources */,
+				D1BD6EEB1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */,
+				D1BD6EAA1F3358D4003D6683 /* button-air-off.png in Resources */,
+				D1BD6ED71F3358D4003D6683 /* voicebox-5.png in Resources */,
+				D1BD6ED41F3358D4003D6683 /* voicebox-4.png in Resources */,
+				D11279A41F38B196001EE67A /* synth-4.png in Resources */,
+				D1BD6EB31F3358D4003D6683 /* button-oil-on.png in Resources */,
+				D1BD6EC51F3358D4003D6683 /* voicebox-10.png in Resources */,
+				D1BD6EDA1F3358D4003D6683 /* voicebox-6.png in Resources */,
+				D1BD6EB91F3358D4003D6683 /* button-p1-on.png in Resources */,
+				D1BD6EB61F3358D4003D6683 /* button-p1-off.png in Resources */,
+				D1BD6EE01F3358D4003D6683 /* voicebox-8.png in Resources */,
+				D1BD6EF41F336703003D6683 /* button-turbo-boost.mp3 in Resources */,
+				D1BD6E6F1F3357E4003D6683 /* Interface.storyboard in Resources */,
+				D1BD6EEE1F336703003D6683 /* button-right-away.mp3 in Resources */,
+				D1BD6ECE1F3358D4003D6683 /* voicebox-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD6E751F3357E4003D6683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD6EDE1F3358D4003D6683 /* voicebox-7.png in Resources */,
+				D1BD6EF21F336703003D6683 /* button-systems-go.mp3 in Resources */,
+				D1BD6EE11F3358D4003D6683 /* voicebox-8.png in Resources */,
+				D1BD6ED21F3358D4003D6683 /* voicebox-3.png in Resources */,
+				D1BD6EAB1F3358D4003D6683 /* button-air-off.png in Resources */,
+				D1BD6EE41F3358D4003D6683 /* voicebox-9.png in Resources */,
+				D112799F1F38B196001EE67A /* synth-2.png in Resources */,
+				D11279A51F38B196001EE67A /* synth-4.png in Resources */,
+				D1BD6EB71F3358D4003D6683 /* button-p1-off.png in Resources */,
+				D1BD6ED51F3358D4003D6683 /* voicebox-4.png in Resources */,
+				D1BD6ED81F3358D4003D6683 /* voicebox-5.png in Resources */,
+				D1BD6EB41F3358D4003D6683 /* button-oil-on.png in Resources */,
+				D1BD6EC61F3358D4003D6683 /* voicebox-10.png in Resources */,
+				D1BD6EC31F3358D4003D6683 /* voicebox-1.png in Resources */,
+				D1BD6EBD1F3358D4003D6683 /* button-p2-off.png in Resources */,
+				D1BD6E811F3357E4003D6683 /* Assets.xcassets in Resources */,
+				D1BD6EB11F3358D4003D6683 /* button-oil-off.png in Resources */,
+				D1BD6EA81F3358D4003D6683 /* bar.png in Resources */,
+				D1BD6EAE1F3358D4003D6683 /* button-air-on.png in Resources */,
+				D1BD6ECF1F3358D4003D6683 /* voicebox-2.png in Resources */,
+				D1BD6EEF1F336703003D6683 /* button-right-away.mp3 in Resources */,
+				D1BD6EC91F3358D4003D6683 /* voicebox-11.png in Resources */,
+				D11279A81F38B196001EE67A /* synth-5.png in Resources */,
+				D11253BD1F34B431001EE67A /* kitt.mp3 in Resources */,
+				D11279A21F38B196001EE67A /* synth-3.png in Resources */,
+				D1BD6EDB1F3358D4003D6683 /* voicebox-6.png in Resources */,
+				D112799C1F38B196001EE67A /* synth-1.png in Resources */,
+				D1BD6EC01F3358D4003D6683 /* button-p2-on.png in Resources */,
+				D1BD6EBA1F3358D4003D6683 /* button-p1-on.png in Resources */,
+				D1BD6ECC1F3358D4003D6683 /* voicebox-12.png in Resources */,
+				D1BD6EEC1F336703003D6683 /* button-pursuit-mode.mp3 in Resources */,
+				D1BD6EF51F336703003D6683 /* button-turbo-boost.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1BD6E521F3357E3003D6683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD6E5C1F3357E3003D6683 /* ViewController.swift in Sources */,
+				D1BD6E5A1F3357E3003D6683 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BD6E731F3357E4003D6683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BD6E7F1F3357E4003D6683 /* ExtensionDelegate.swift in Sources */,
+				D1BD6E7D1F3357E4003D6683 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1BD6E6B1F3357E4003D6683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BD6E671F3357E4003D6683 /* KnightRider WatchKit App */;
+			targetProxy = D1BD6E6A1F3357E4003D6683 /* PBXContainerItemProxy */;
+		};
+		D1BD6E7A1F3357E4003D6683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1BD6E761F3357E4003D6683 /* KnightRider WatchKit Extension */;
+			targetProxy = D1BD6E791F3357E4003D6683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1BD6E5D1F3357E3003D6683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BD6E5E1F3357E3003D6683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1BD6E621F3357E3003D6683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BD6E631F3357E3003D6683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D1BD6E6D1F3357E4003D6683 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BD6E6E1F3357E4003D6683 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1BD6E831F3357E4003D6683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1BD6E841F3357E4003D6683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1BD6E861F3357E4003D6683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				INFOPLIST_FILE = "KnightRider WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		D1BD6E871F3357E4003D6683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				INFOPLIST_FILE = "KnightRider WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		D1BD6E8A1F3357E4003D6683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				IBSC_MODULE = KnightRider_WatchKit_Extension;
+				INFOPLIST_FILE = "KnightRider WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		D1BD6E8B1F3357E4003D6683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				IBSC_MODULE = KnightRider_WatchKit_Extension;
+				INFOPLIST_FILE = "KnightRider WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		D1BD6E8E1F3357E4003D6683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				INFOPLIST_FILE = KnightRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D1BD6E8F1F3357E4003D6683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EJZY74TSLQ;
+				INFOPLIST_FILE = KnightRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bartokb85.KnightRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1BD6E511F3357E3003D6683 /* Build configuration list for PBXProject "KnightRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD6E831F3357E4003D6683 /* Debug */,
+				D1BD6E841F3357E4003D6683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BD6E851F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD6E861F3357E4003D6683 /* Debug */,
+				D1BD6E871F3357E4003D6683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BD6E891F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD6E8A1F3357E4003D6683 /* Debug */,
+				D1BD6E8B1F3357E4003D6683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BD6E8D1F3357E4003D6683 /* Build configuration list for PBXNativeTarget "KnightRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BD6E8E1F3357E4003D6683 /* Debug */,
+				D1BD6E8F1F3357E4003D6683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1BD6E4E1F3357E3003D6683 /* Project object */;
+}
